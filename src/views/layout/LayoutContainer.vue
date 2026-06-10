@@ -103,7 +103,7 @@ const handleCommand = async (key) => {
       <el-main>
         <router-view></router-view>
       </el-main>
-      <el-footer>Copyright ©2024 后台管理系统</el-footer>
+      <el-footer>Copyright ©2024 灵犀CMS</el-footer>
     </el-container>
   </el-container>
 </template>
