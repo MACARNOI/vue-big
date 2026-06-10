@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useUserStore } from '@/stores'
 import { ElMessage } from 'element-plus' 
 import router from '@/router'
-const baseURL = 'https://big-event-vue-api-t.itheima.net'
+const baseURL = import.meta.env.VITE_API_BASE_URL
 
 const instance = axios.create({
   // TODO 1. 基础地址，超时时间
